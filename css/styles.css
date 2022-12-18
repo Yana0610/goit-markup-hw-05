@@ -352,3 +352,89 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
+
+/* -----------PORTFOLIO-head------------ */
+
+
+body{
+    font-family: 'roboto' ,sans-serif;
+    color: #434455;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.site-body{
+}
+
+
+
+.site-body-portfolio {
+}
+.header-portfolio {
+}
+.header-navigation-portfolio {
+}
+.header-portfolio-web {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.link {
+}
+.header-portfolio-studio {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+
+}
+.header-portfolio-list {
+}
+.list {
+}
+.header-portfolio-item {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.header-portfolio-after-list {
+}
+.header-portfolio-mail {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-portfolio-tel {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
