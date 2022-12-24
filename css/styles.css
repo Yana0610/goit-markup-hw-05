@@ -48,32 +48,36 @@ color: #2E2F42;
 .header-link:hover,
 .header-link:focus{
     color: #4D5AE5;
-}
+    }
 .header-list {
-font-weight:700;
-font-size: 16px;
-line-height:var(--typical-lh);
-letter-spacing: 0.02em;
-color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #4D5AE5;
+    
 }
 .heade-item {
 }
 .header-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .header-after-list
 .header-tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .header-mail {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -123,9 +127,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .about-after-strategy {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.02em;
@@ -143,9 +145,7 @@ color: #2E2F42;
 
 }
 .about-after-punctuality {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -161,9 +161,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .about-after-diligence {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height:var(--typical-lh);
 letter-spacing: 0.02em;
@@ -179,9 +177,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .about-after-technologies {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height:var(--typical-lh);
 letter-spacing: 0.02em;
@@ -239,9 +235,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-designer-text {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -259,9 +253,6 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-developer-text {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
 text-align: center;
@@ -279,9 +270,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-marketing-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -299,9 +288,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-ul-text {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -339,9 +326,7 @@ text-transform: uppercase;
 color: #F4F4FD;
 }
 .footer-text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -402,35 +387,43 @@ text-transform: uppercase;
 color: #2E2F42;
 
 }
+.header-portfolio-link:hover,
+.header-portfolio-link:focus{
+    color: #4D5AE5;
+    }
 .header-portfolio-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #4D5AE5;
 }
 .list {
 }
-.header-portfolio-item {
-font-family: 'Roboto';
+
+
+.header-portfolio-link{
+    font-family: 'Roboto';
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
-
+color: #2E2F42
 }
 .header-portfolio-after-list {
 }
 .header-portfolio-mail {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .header-portfolio-tel {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -438,7 +431,27 @@ color: #434455;
 }
 
 
+.tab-all:hover{
+    background-color: #404BBF;
+    color: #FFFFFF;
+    }
 
+.tab-web:hover{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+.tab-app:hover{
+    background-color: #404BBF;
+    color: #FFFFFF;
+    }
+    .tab-design:hover{
+        background-color: #404BBF;
+        color: #FFFFFF;
+        }
+        .tab-marketing:hover{
+            background-color: #404BBF;
+            color: #FFFFFF;
+            }
 
 .tab-all {
     
@@ -528,9 +541,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-banking {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -539,18 +550,14 @@ color: #434455;
 .images-item-payment {
 }
 .images-payment {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-payment {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -568,9 +575,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-meditation {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -588,9 +593,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-taxi {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -608,9 +611,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-illustration {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -628,9 +629,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-online {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -648,9 +647,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-instagram {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -668,9 +665,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-rganic {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -689,9 +684,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .images-after-coffee {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -731,10 +724,6 @@ text-transform: uppercase;
 color: #F4F4FD;
 }
 .footer-portfolio-text {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
