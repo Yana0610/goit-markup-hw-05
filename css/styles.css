@@ -64,9 +64,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-padding-top: 24px;
-padding-bottom: 24px;
-padding-left: 156px;
+
 }
 
 .header-studio {
@@ -150,8 +148,10 @@ color: #FFFFFF;
 margin-bottom: 48px;
 max-width: 553px;
 max-height: 120px;
-
+margin: 0 auto;
 }
+
+
 .hero-btn {
 background: #4D5AE5;
 font-family: 'Roboto';
@@ -166,8 +166,8 @@ cursor: pointer;
 min-width: 169px;
 height: 56px;
 padding: 16px 32px;
-margin-left: 636px;
-margin-right: 635px;
+display: block;
+margin: 0 auto;
 
 
 }
@@ -179,7 +179,11 @@ margin-right: 635px;
     display:flex;
     gap: 24px;
 }
-.about-item {padding-top: 120px;
+
+.about {
+    padding-top: 120px;
+}
+.about-item {
     
 }
 .about-strategy {
@@ -191,6 +195,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
+
 }
 .about-after-strategy {
 
@@ -198,6 +203,7 @@ font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.02em;
 color: #434455;
+max-width: 264px;
 
 }
 .about-item {
@@ -219,6 +225,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+max-width: 264px;
 }
 .about-diligence {
     font-family: 'Roboto';
@@ -236,6 +243,7 @@ font-size: 16px;
 line-height:var(--typical-lh);
 letter-spacing: 0.02em;
 color: #434455;
+max-width: 264px;
 }
 .about-technologies {
     font-family: 'Roboto';
@@ -253,6 +261,7 @@ font-size: 16px;
 line-height:var(--typical-lh);
 letter-spacing: 0.02em;
 color: #434455;
+max-width: 264px;
 }
 
 /* --------Work--------- */
@@ -305,6 +314,12 @@ margin-bottom: 72px;
 }
 .team-item {
 }
+.card-list{
+    
+    padding-top: 32px ;
+    padding-bottom: 32px ;
+}
+
 .team-designer {
     font-family: 'Roboto';
 font-style: normal;
@@ -340,7 +355,7 @@ margin-bottom: 8px;
 }
 .team-developer-text {
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
@@ -397,8 +412,7 @@ margin-bottom: 32px;
 
 }
 .footer-web {
-    padding-top: 100px;
-    padding-left: 156px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -428,7 +442,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 margin-top: 16px;
-padding-left: 156px;
+max-width: 264px;
 
 }
 
@@ -555,7 +569,9 @@ color: #434455;
     padding-top: 96px;
     
 }
-
+.tab-list{
+    justify-content: center;
+}
 .tab-all:hover{
     background-color: #404BBF;
     color: #FFFFFF;
@@ -594,8 +610,6 @@ padding: 12px 24px;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
-    margin-left: 427px;
-    width: 69px;
     height: 48px;
     }
 .tab-web {
@@ -615,7 +629,7 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer;
-width: 116px;
+
 height: 48px;
 
 }
@@ -636,7 +650,7 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer;
-width: 78px;
+
 height: 48px;
 
 }
@@ -647,7 +661,7 @@ justify-content: center;
 align-items: center;
 padding: 12px 24px;
 
-width: 101px;
+
 height: 48px;
     font-family: 'Roboto';
 font-style: normal;
@@ -682,7 +696,7 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer;
-width: 128px;
+
 height: 48px;
 margin-right: 427px;
 }
@@ -696,6 +710,7 @@ color: #404BBF;
     padding-bottom:120px ;
 }
 
+
 .images-list {display: flex;
     column-gap: 24px;
     row-gap: 48px;
@@ -703,6 +718,11 @@ color: #404BBF;
 }
 
 .images-item{width: calc(100 %-48)/3;}
+.picture-list {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
 .images-link {
 }
 .images-item-bank {
@@ -888,12 +908,10 @@ color: #434455;
 
 .footer-portfolio{
     background: #2E2F42;
-}
-.footer-portfolio-web {
     padding-top: 100px;
     padding-left: 156px;
-
-
+}
+.footer-portfolio-web {
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
@@ -920,11 +938,11 @@ text-transform: uppercase;
 color: #F4F4FD;
 }
 .footer-portfolio-text {
-    padding-left: 156px;
-    padding-bottom: 100px;
+max-width: 264px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-
+padding-top: 16px;
+padding-bottom: 100px;
 }
