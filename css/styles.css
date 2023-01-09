@@ -64,7 +64,6 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-
 }
 
 .header-studio {
@@ -314,6 +313,10 @@ margin-bottom: 72px;
 }
 .team-item {
 }
+
+.card-content{
+    padding: 0 0 32px 0;
+}
 .card-list{
     
     padding-top: 32px ;
@@ -468,8 +471,6 @@ body{
 .site-body{
 }
 
-
-
 .site-body-portfolio {
 }
 .header-portfolio > .container {
@@ -477,16 +478,15 @@ body{
     align-items: center;
 }
 .header-portfolio {
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .header-navigation-portfolio {
     display: flex;
     align-items: center;
     margin-right: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
-
 
 .header-portfolio-web {
 
@@ -501,7 +501,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 cursor: pointer;
-padding-left: 156px;
+
 }
 
 .header-portfolio-studio {
@@ -564,13 +564,21 @@ color: #434455;
 }
 /* ------------------tab-------------- */
 
-.tab{display: flex;
-    gap: 24px;
-    padding-top: 96px;
+
+.filter.container{}
+.tab{
+    
+}
+
+.tab-item{
     
 }
 .tab-list{
+    display: flex;
+    gap: 24px;
+    padding-top: 96px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 .tab-all:hover{
     background-color: #404BBF;
@@ -650,18 +658,15 @@ text-align: center;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer;
-
 height: 48px;
-
 }
+
 .tab-design {
     display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 24px;
-
-
 height: 48px;
     font-family: 'Roboto';
 font-style: normal;
@@ -706,18 +711,22 @@ margin-right: 427px;
 color: #404BBF;
 }
 
-.images { padding-top:72px ;
-    padding-bottom:120px ;
+.images { 
+    padding-top:72px;
+    
 }
 
 
-.images-list {display: flex;
+.images-list {
+    
+    display: flex;
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
 }
 
 .images-item{width: calc(100 %-48)/3;}
+
 .picture-list {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -726,6 +735,12 @@ color: #404BBF;
 .images-link {
 }
 .images-item-bank {
+}
+    
+.picture-content {
+    border: 1px solid #E7E9FC;
+
+
 }
 .images-banking {
     margin-top: 32px;
@@ -909,7 +924,7 @@ color: #434455;
 .footer-portfolio{
     background: #2E2F42;
     padding-top: 100px;
-    padding-left: 156px;
+    padding-bottom: 100px;
 }
 .footer-portfolio-web {
 font-family: 'Raleway';
@@ -943,6 +958,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-padding-top: 16px;
-padding-bottom: 100px;
+margin-top: 16px;
 }
