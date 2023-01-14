@@ -144,10 +144,11 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-bottom: 48px;
+
 max-width: 553px;
 max-height: 120px;
 margin: 0 auto;
+
 }
 
 
@@ -167,7 +168,7 @@ height: 56px;
 padding: 16px 32px;
 display: block;
 margin: 0 auto;
-
+margin-top: 48px;
 
 }
 
@@ -315,7 +316,7 @@ margin-bottom: 72px;
 }
 
 .card-content{
-    padding: 0 0 32px 0;
+    padding: 32px 0 32px 0;
 }
 .card-list{
     
@@ -332,7 +333,6 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
 margin-bottom: 8px;
 }
 .team-designer-text {
@@ -342,7 +342,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 32px;
+
 }
 .team-developer {
     font-family: 'Roboto';
@@ -353,7 +353,6 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
 margin-bottom: 8px;
 }
 .team-developer-text {
@@ -362,7 +361,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 32px;
+
 }
 .team-marketing {
     font-family: 'Roboto';
@@ -373,7 +372,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+
 margin-bottom: 8px;
 }
 .team-marketing-text {
@@ -383,7 +382,7 @@ margin-bottom: 8px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 32px;
+    
     }
 .team-ul {
     font-family: 'Roboto';
@@ -394,7 +393,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+
 margin-bottom: 8px;
 }
 .team-ul-text {
@@ -404,7 +403,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 32px;
+
 }
 /* -----------Footer------------ */
 
@@ -565,7 +564,12 @@ color: #434455;
 /* ------------------tab-------------- */
 
 
-.filter.container{}
+.filter{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+
 .tab{
     
 }
@@ -576,11 +580,9 @@ color: #434455;
 .tab-list{
     display: flex;
     gap: 24px;
-    padding-top: 96px;
     justify-content: center;
     margin-bottom: 72px;
-    margin-left: 427px;
-    margin-right: auto;
+
 }
 .tab-all:hover{
     background-color: #404BBF;
@@ -705,7 +707,7 @@ color: #4D5AE5;
 cursor: pointer;
 
 height: 48px;
-margin-right: 427px;
+
 }
 
 .tab:hover,
@@ -741,13 +743,13 @@ color: #404BBF;
     
 .picture-content {
     border: 1px solid #E7E9FC;
+    padding: 32px 0 32px 16px;
 
 
 }
 .images-banking {
-    margin-top: 32px;
     margin-bottom: 8px;
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -765,8 +767,7 @@ color: #434455;
 .images-item-payment {
 }
 .images-payment {
-    margin-top: 32px;
-    margin-bottom: 8px;
+margin-bottom: 8px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -782,7 +783,7 @@ color: #434455;
 .images-item-maditation {}
 
 .images-meditation {
-    margin-top: 32px;
+    
     margin-bottom: 8px;
 font-family: 'Roboto';
 font-style: normal;
@@ -802,7 +803,7 @@ color: #2E2F42;
 .images-item-taxi {
 }
 .images-taxi {
-    margin-top: 32px;
+    
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -822,7 +823,7 @@ color: #434455;
 .images-item-illustration {
 }
 .images-illustration {
-    margin-top: 32px;
+    
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -842,9 +843,8 @@ color: #434455;
 .images-item-online {
 }
 .images-online {
-    margin-top: 32px;
-    margin-bottom: 8px;
-    font-family: 'Roboto';
+margin-bottom: 8px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -862,7 +862,7 @@ color: #434455;
 .images-item-instagram {
 }
 .images-instagran {
-    margin-top: 32px;
+
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -882,7 +882,6 @@ color: #434455;
 .images-item-organic {
 }
 .images-organic {
-    margin-top: 32px;
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -902,9 +901,7 @@ color: #434455;
 .images-item-coffee {
 }
 .images-coffee {
-    margin-top: 32px;
-    margin-bottom: 8px;
-
+margin-bottom: 8px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
