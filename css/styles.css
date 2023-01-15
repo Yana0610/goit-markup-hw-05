@@ -331,6 +331,9 @@ margin-bottom: 72px;
 }
 .team-item {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.card-content{
+    padding: 32px 0 32px 0;
+}
 .card-list{
     
     padding-top: 32px ;
@@ -341,6 +344,9 @@ margin-bottom: 72px;
     justify-content: center;
     gap: 24px;
     list-style: none;
+
+    align-items: center;
+ 
 }
 .team-soc-item {
     width: 40px;
@@ -353,10 +359,11 @@ margin-bottom: 72px;
 .team-soc-link{
     width: 100%;
     height: 100%;
-    background: #F4F4FD;
+    /*background: #F4F4FD;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+
     }
 
 .team-soc-icon{
@@ -377,7 +384,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+
 margin-bottom: 8px;
 }
 .team-designer-text {
@@ -400,7 +407,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+
 margin-bottom: 8px;
 }
 .team-developer-text {
@@ -420,7 +427,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+
 margin-bottom: 8px;
 }
 .team-marketing-text {
@@ -441,7 +448,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-top: 32px;
+
 margin-bottom: 8px;
 }
 .team-ul-text {
@@ -451,7 +458,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-margin-bottom: 32px;
+
 }
 
 
@@ -492,14 +499,17 @@ margin-bottom: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
+    outline: 1px solid #8E8F99 ;
 
 }
 .customers-link:hover.customers-icon{
     fill:blueviolet;
+
 }
 
 .customers-link:hover{
-    border-color: blueviolet;}
+    border-color: blueviolet;
+}
 .link {
 }
 .customers-icon {
@@ -512,9 +522,9 @@ margin-bottom: 72px;
         padding-top: 100px;
         padding-bottom: 100px;
         background: #2E2F42;
-        display: flex;
-
 }
+
+
 .footer-web {
 
     font-family: 'Raleway';
@@ -550,9 +560,13 @@ max-width: 264px;
 
 }
 
-.container {
+.footer>.container {display: flex;
+    gap: 120px;
+}
+.social{
 }
 .soc-tex {
+
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -619,14 +633,15 @@ body{
     align-items: center;
 }
 .header-portfolio {
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .header-navigation-portfolio {
     display: flex;
     align-items: center;
     margin-right: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 
@@ -643,7 +658,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 cursor: pointer;
-padding-left: 156px;
+/*padding-left: 156px;*/
 }
 
 .header-portfolio-studio {
@@ -706,13 +721,18 @@ color: #434455;
 }
 /* ------------------tab-------------- */
 
-.tab{display: flex;
-    gap: 24px;
-    padding-top: 96px;
-    
+.filter{ padding-top: 96px;
+    padding-bottom: 120px;
+
+}
+
+.tab{
 }
 .tab-list{
+    display: flex;
+    gap: 24px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 .tab-all:hover{
     background-color: #404BBF;
@@ -802,8 +822,6 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px 24px;
-
-
 height: 48px;
     font-family: 'Roboto';
 font-style: normal;
@@ -840,7 +858,7 @@ color: #4D5AE5;
 cursor: pointer;
 
 height: 48px;
-margin-right: 427px;
+
 }
 
 .tab:hover,
@@ -849,7 +867,6 @@ color: #404BBF;
 }
 
 .images { padding-top:72px ;
-    padding-bottom:120px ;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -872,10 +889,14 @@ color: #404BBF;
 .images-item-bank {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.picture-content {
+    border: 1px solid #E7E9FC;
+    padding: 32px 0 32px 16px;
+}
 .images-banking {
-    margin-top: 32px;
-    margin-bottom: 8px;
-    font-family: 'Roboto';
+
+margin-bottom: 8px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -894,7 +915,7 @@ color: #434455;
 .images-item-payment {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .images-payment {
-    margin-top: 32px;
+
     margin-bottom: 8px;
 font-size: 20px;
 line-height: 1.2;
@@ -911,7 +932,7 @@ color: #434455;
 .images-item-maditation {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
 .images-meditation {
-    margin-top: 32px;
+
     margin-bottom: 8px;
 font-family: 'Roboto';
 font-style: normal;
@@ -931,8 +952,8 @@ color: #2E2F42;
 .images-item-taxi {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .images-taxi {
-    margin-top: 32px;
-    margin-bottom: 8px;
+
+margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -951,7 +972,7 @@ color: #434455;
 .images-item-illustration {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .images-illustration {
-    margin-top: 32px;
+
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -971,7 +992,7 @@ color: #434455;
 .images-item-online {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .images-online {
-    margin-top: 32px;
+
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -991,7 +1012,7 @@ color: #434455;
 .images-item-instagram {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .images-instagran {
-    margin-top: 32px;
+
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -1011,7 +1032,7 @@ color: #434455;
 .images-item-organic {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .images-organic {
-    margin-top: 32px;
+
     margin-bottom: 8px;
     font-family: 'Roboto';
 font-style: normal;
@@ -1031,7 +1052,7 @@ color: #434455;
 .images-item-coffee 
 {box-shadow: 10px 1px 6px rgba(46, 47, 66, 0.08);}
 .images-coffee {
-    margin-top: 32px;
+
     margin-bottom: 8px;
 
 font-family: 'Roboto';
@@ -1055,8 +1076,9 @@ color: #434455;
 .footer-portfolio{
     background: #2E2F42;
     padding-top: 100px;
-    padding-left: 156px;
+    
     display: flex;
+    padding-bottom: 100px;
 }
 .footer-portfolio-web {
 font-family: 'Raleway';
@@ -1090,10 +1112,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-padding-top: 16px;
-padding-bottom: 100px;
+margin-top: 16px;
+
 }
-.container {
+.footer-portfolio > .container {
+    display: flex;
+    gap: 120px;
 }
 .social-text {
     font-family: 'Roboto';
