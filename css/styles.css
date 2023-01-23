@@ -123,11 +123,17 @@ margin-right: 40px;
     color: #434455;
     margin-right: 40px;
 }
+.header-tel:hover{
+    color: #404BBF;
+}
 .header-mail {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.header-mail:hover{
+    color: #404BBF;
 }
 
 /* --------Hero--------- */
@@ -175,7 +181,11 @@ padding: 16px 32px;
 display: block;
 margin: 0 auto;
 margin-top: 48px;
-
+border: 1px transparent;
+border-radius: 4px;
+}
+.hero-btn:hover{
+    background-color: #404BBF;
 }
 
 /* --------About--------- */
@@ -194,20 +204,20 @@ margin-top: 48px;
     flex-basis: calc((100%-3*24px)/4);
     }
 .features-icon{
+    
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 112px;
     width: 264px;
-
     border-radius: 4px;
     background: #F4F4FD;
-    margin-bottom: 8px;
-    
+    margin-bottom: 8px; 
+
 }
 .about-strategy {
 font-family: 'Roboto';
@@ -352,8 +362,7 @@ margin-bottom: 72px;
 }
 .team-soc-list {
 
-    gap: 24px;
-    list-style: none;
+
 
 }
 .team-soc-item {
@@ -367,22 +376,24 @@ margin-bottom: 72px;
 .team-soc-link{
     width: 100%;
     height: 100%;
-
-    display: flex;
+display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 24px;
+    list-style: none;
     }
 
 .team-soc-icon{
 fill: #F4F4FD;
 
 }
-
-.team-soc-link:hover{
-    fill: #4D5AE5;
+.team-soc-icon:hover{
+    fill:;
 }
-
+.team-soc-link:hover{
+    background-color: #404BBF;
+    border-radius: 50%;
+}
 
     .team-designer {
 font-family: 'Roboto';
@@ -458,7 +469,6 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-
 margin-bottom: 8px;
 }
 .team-ul-text {
@@ -468,7 +478,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-
+margin-bottom: 8px;
 }
 
 
@@ -516,7 +526,7 @@ margin-bottom: 72px;
 }
 
 .customers-link:hover
-{border-color:blueviolet;
+{border-color:#404BBF;
 }
 .link {
 }
@@ -524,7 +534,7 @@ margin-bottom: 72px;
     fill: #AFB1B8;
 }
 .customers-icon:hover{
-    fill: blueviolet;
+    fill: #404BBF;
 }
 /* -----------Footer------------ */
 
@@ -729,12 +739,18 @@ color: #2E2F42
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-portfolio-mail:hover{
+    color: #404BBF;
+}
 .header-portfolio-tel {
 
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.header-portfolio-tel:hover{
+    color: #404BBF;
 }
 /* ------------------tab-------------- */
 
@@ -801,9 +817,11 @@ padding: 12px 24px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color:#4D5AE5;
     cursor: pointer;
     height: 48px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     }
 .tab-web {
     display: flex;
@@ -824,7 +842,8 @@ color: #4D5AE5;
 cursor: pointer;
 
 height: 48px;
-
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 .tab-app {
     display: flex;
@@ -844,6 +863,8 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer;
 height: 48px;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 
 .tab-design {
@@ -866,10 +887,11 @@ color: #4D5AE5;
 cursor: pointer;
 width: 101px;
 height: 48px;
-
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 .tab-marketing {
-    display: flex;
+display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -888,7 +910,8 @@ color: #4D5AE5;
 cursor: pointer;
 
 height: 48px;
-
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 
 .tab:hover,
@@ -923,7 +946,7 @@ color: #404BBF;
 .images-link {
 
 }
-.images-item:hover{
+.images-item-bank:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -956,7 +979,12 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-
+.images-item-payment:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-payment {
 margin-bottom: 8px;
 
@@ -974,6 +1002,12 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.images-item-maditation:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-meditation {
     
 
@@ -993,6 +1027,12 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455
 
+}
+.images-item-taxi:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 .images-taxi {
     
@@ -1015,6 +1055,12 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.images-item-illustration:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-illustration {
     
 
@@ -1034,7 +1080,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+.images-item-online:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-online {
 margin-bottom: 8px;
 font-family: 'Roboto';
@@ -1055,7 +1106,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+.images-item-instagram:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-instagran {
 
     margin-bottom: 8px;
@@ -1075,6 +1131,12 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.images-item-organic:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-organic {
 
     margin-bottom: 8px;
@@ -1093,7 +1155,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+.images-item-coffee:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
 .images-coffee {
 margin-bottom: 8px;
 margin-bottom: 8px;
