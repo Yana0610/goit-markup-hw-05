@@ -623,12 +623,12 @@ margin-bottom: 16px;
 
 }
 .soc-link:hover {
-    background: blueviolet;
+    background: #31D0AA;
     border-radius: 50%;
 }
 
 .soc-icon:hover{
-    fill: rgba(46, 47, 66, 1);
+    fill: ;
 }
 
 /* -----------PORTFOLIO-head------------ */
@@ -1265,10 +1265,10 @@ margin-bottom: 16px;
     fill: #F4F4FD;;
 }
 .social-icon:hover{
-    fill:#434455;
+    fill:;
 }
 
 .social-link:hover{
-    background-color: #4D5AE5;
+    background-color: #31D0AA;
     border-radius: 50%;
 }
