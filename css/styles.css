@@ -109,7 +109,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-right: 40px;
+
 }
 .header-after-list{
     display: flex;
@@ -350,6 +350,7 @@ margin-bottom: 72px;
 }
 .card-content{
     padding: 32px 0 32px 0;
+    background: #FFFFFF;
 }
 
 .card-content{
@@ -361,6 +362,9 @@ margin-bottom: 72px;
     padding-bottom: 32px ;
 }
 .team-soc-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 
@@ -391,6 +395,10 @@ fill: #F4F4FD;
     fill:;
 }
 .team-soc-link:hover{
+    background-color: #404BBF;
+    border-radius: 50%;
+}
+.team-soc-link:focus{
     background-color: #404BBF;
     border-radius: 50%;
 }
@@ -520,22 +528,24 @@ margin-bottom: 72px;
     align-items: center;
     justify-content: center;
 }
-.customers-link:hover.customers-icon{
-    fill:blueviolet;
+    .customers-icon {
+        fill: #AFB1B8;
+    }
 
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon
+{
+    fill:#4D5AE5;
 }
-
 .customers-link:hover
-{border-color:#404BBF;
+{border:1px solid #4D5AE5;
 }
-.link {
+.customers-link:focus{
+    border:1px solid #4D5AE5;
 }
-.customers-icon {
-    fill: #AFB1B8;
-}
-.customers-icon:hover{
-    fill: #404BBF;
-}
+
+
+
 /* -----------Footer------------ */
 
     .footer {
@@ -626,6 +636,10 @@ margin-bottom: 16px;
     background: #31D0AA;
     border-radius: 50%;
 }
+.soc-link:focus {
+    background: #31D0AA;
+    border-radius: 50%;
+}
 
 .soc-icon:hover{
     fill: ;
@@ -655,6 +669,11 @@ body{
 
 .site-body-portfolio {
 }
+.header-portfolio{
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .header-portfolio > .container {
     display: flex;
     align-items: center;
@@ -784,24 +803,54 @@ color: #434455;
 .tab-all:hover{
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
+.tab-all:focus{
+        background-color: #404BBF;
+        color: #FFFFFF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
 
 .tab-web:hover{
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.tab-web:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
 .tab-app:hover{
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
+    .tab-app:focus{
+        background-color: #404BBF;
+        color: #FFFFFF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
     .tab-design:hover{
         background-color: #404BBF;
         color: #FFFFFF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         }
+        .tab-design:focus{
+            background-color: #404BBF;
+            color: #FFFFFF;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            }
         .tab-marketing:hover{
             background-color: #404BBF;
             color: #FFFFFF;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
             }
+            .tab-marketing:focus{
+                background-color: #404BBF;
+                color: #FFFFFF;
+                box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+                }
 
 .tab-all {
     display: flex;
@@ -821,8 +870,7 @@ padding: 12px 24px;
     cursor: pointer;
     height: 48px;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    }
+    border-radius: 4px;}
 .tab-web {
     display: flex;
 flex-direction: row;
@@ -1269,6 +1317,10 @@ margin-bottom: 16px;
 }
 
 .social-link:hover{
+    background-color: #31D0AA;
+    border-radius: 50%;
+}
+.social-link:focus{
     background-color: #31D0AA;
     border-radius: 50%;
 }
