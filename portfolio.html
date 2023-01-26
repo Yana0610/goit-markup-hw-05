@@ -13,6 +13,11 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
 crossorigin="anonymous" 
 referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/styles.css" />
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="site-body-portfolio">
     <header class="header-portfolio">
@@ -23,7 +28,7 @@ referrerpolicy="no-referrer" />
             </a>
     <ul class="header-portfolio-list list">
         <li class="header-portfolio-item"><a class="header-portfolio-link link" href="./index.html">Studio</a></li>
-        <li class="header-portfolio-item"><a class="header-portfolio-link link" href="Portfolio">Portfolio</a></li>
+        <li class="header-portfolio-item"><a class="header-portfolio-link link current" href="Portfolio">Portfolio</a></li>
         <li class="header-portfolio-item"><a class="header-portfolio-link link" href="Contacts">Contacts</a></li>
     </ul> 
 </nav>
@@ -47,25 +52,42 @@ referrerpolicy="no-referrer" />
 
     <ul class="images-list list">
         <li class="images-item-bank">
-        <img src="./images/bank.jpg" alt="bank" width="360" height="300"/>
+<a href="" class="images-item-link link">
+    <div class="images-item-overlay">
+<img class="img-card" src="./images/bank.jpg" alt="bank" width="360" height="300"/>
+<p class="images-top-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
+Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+</div>
         <div class="picture-content">
         <h2 class="images-banking">Banking App Interface Concept</h2>
         <p class="images-after-banking">App</p>
+    
         </div>
+    </a>
         </li>
     <li class="images-item-payment">
+        <a href="" class="images-item-link link">
+            <div class="images-overlay">
         <img src="./images/payment.jpg" alt="payment" width="360" height="300"/>
+        
+        </div>
         <div class="picture-content">
         <h2 class="images-payment">Cashless Payment</h2>
         <p class="images-after-payment">Marketing</p>
         </div>
+        </a>
     </li>
     <li class="images-item-maditation">
+        <a href="" class="images-item-link link">
+            <div class="images-overlay">
         <img src="./images/meditaion.jpg" alt="meditation" width="360" height="300"/>
+        
+        </div>
         <div class="picture-content">
         <h2 class="images-meditation">Cashless Payment</h2>
             <p class="images-after-meditation">App</p>
         </div>
+        </a>
     </li>
     <li class="images-item-taxi">
         <img src="./images/taxi.jpg" alt="taxi" width="360" height="300"/>
@@ -157,5 +179,9 @@ referrerpolicy="no-referrer" />
     </div>  
     </div>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
