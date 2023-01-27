@@ -211,7 +211,7 @@ margin: 0 auto;
 margin-top: 48px;
 border: 1px transparent;
 border-radius: 4px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1)
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
 .hero-btn:hover{
@@ -563,7 +563,7 @@ margin-bottom: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 250ms, cubic-bezier(0.4, 0, 0.2, 1)
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
     .customers-icon {
         fill: #AFB1B8;
@@ -662,7 +662,7 @@ margin-bottom: 16px;
     justify-content: center;
     display: flex;
     gap: 16px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link {
 }
@@ -671,7 +671,7 @@ margin-bottom: 16px;
 
 }
 .soc-link:hover {
-    background: #31D0AA;
+    background-color: #31D0AA;
     border-radius: 50%;
 }
 .soc-link:focus {
@@ -838,6 +838,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-portfolio-link.current::after{
     content: '';
@@ -859,6 +860,7 @@ position: relative;
     letter-spacing: 0.02em;
     color: #434455;
     padding-left: 156px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-portfolio-mail:hover{
     color: #404BBF;
@@ -869,8 +871,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-padding-right: 156px
-
+padding-right: 156px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-portfolio-tel:hover{
     color: #404BBF;
@@ -969,7 +971,10 @@ padding: 12px 24px;
     cursor: pointer;
     height: 48px;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;}
+    border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+}
 .tab-web {
     display: flex;
 flex-direction: row;
@@ -991,6 +996,8 @@ cursor: pointer;
 height: 48px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 .tab-app {
     display: flex;
@@ -1012,6 +1019,8 @@ cursor: pointer;
 height: 48px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
 .tab-design {
@@ -1036,6 +1045,8 @@ width: 101px;
 height: 48px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 .tab-marketing {
 display: flex;
@@ -1059,6 +1070,8 @@ cursor: pointer;
 height: 48px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
 .tab:hover,
@@ -1214,7 +1227,7 @@ margin-bottom: 16px;
     justify-content: center;
     display: flex;
     gap: 16px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link {
 }
