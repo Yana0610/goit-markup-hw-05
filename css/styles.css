@@ -188,7 +188,7 @@ margin: 0 auto;
 }
 
 
-.button {
+.hero-btn {
 background-color: #4D5AE5;
 font-family: 'Roboto';
 font-weight: 600;
@@ -211,7 +211,7 @@ transition-property: background-color;
 transition-duration: var(--time-animation);
 transition-timing-function: var(--hov-foc-cubic);
 }
-.button:hover{
+.hero-btn:hover{
     background-color: #404BBF;
 }
 
